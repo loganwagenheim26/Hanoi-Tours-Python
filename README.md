@@ -48,5 +48,5 @@ Le projet respecte les principes de la programmation structurée et de la modula
 
 
 ## 👨‍💻 Auteurs
-**Logan Wagenheim**
+**Logan Wagenheim et** 
 **Romain Garrigues**
