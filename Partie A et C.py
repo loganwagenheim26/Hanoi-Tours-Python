@@ -225,6 +225,10 @@ if __name__ == "__main__":
     dessinePlateau(n_disques)
     dessineConfig(plateau, n_disques)
     
+    # Garde la fenêtre turtle ouverte pendant le jeu
+    canvas = turtle.getcanvas()
+    canvas.winfo_toplevel().attributes("-topmost", True)
+    
     # Lancement de la boucle de jeu
     coups_joues, a_gagne = boucleJeu(plateau, n_disques)
     
