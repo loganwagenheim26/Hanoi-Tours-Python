@@ -234,7 +234,7 @@ if __name__ == "__main__":
     
     # Calcul du nombre minimal théorique de coups : (2^n) - 1
     coup_min = (2 ** n_disques) - 1
-    print(f"\n--- FIN DE LA PARTIE ---")
+    print(f"\n FIN DE LA PARTIE ")
     print(f"Nombre de coups joués : {coups_joues}")
     print(f"Le nombre minimal de coups possible était : {coup_min}")
     
